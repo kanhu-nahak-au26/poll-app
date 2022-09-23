@@ -1,11 +1,10 @@
-![Homepage](https://raw.githubusercontent.com/abohannon/spark-poll/develop/screenshots/landing-page.png) 
 
-# Spark Poll
+# Poll-app
 > Responsive, lightweight and easy-to-use polling app
 
 Spark Poll is a simple polling app that lets you quickly and easily create polls, share them with your friends, and view their results.
 
-Demo: https://spark-poll.herokuapp.com/
+Demo: 
 
 
 ## Stack
@@ -20,7 +19,7 @@ To get up and running:
 Client:
 
 ```shell
-cd spark-poll
+cd poll-app
 cd client
 npm install
 ```
@@ -28,10 +27,10 @@ npm install
 Server:
 
 ```shell
-cd spark-poll
+cd poll-app
 cd server
 npm install
-npm run dev
+nodemon
 ```
 
 This will start the Node server and connect to MongoDB on localhost:5000. It will also launch the client on localhost:3000
@@ -47,7 +46,7 @@ See below on creating a dev.js file.
 To install:
 
 ```shell
-https://github.com/abohannon/spark-poll.git
+
 cd spark-poll/
 npm install
 ```
@@ -91,19 +90,8 @@ Currently no server-side testing has been implemented. This is something for fut
 * After a poll is taken, the results are immediately visualized
 * App is responsive and can be used on mobile devices
 
-![Dashboard - New User](https://github.com/abohannon/spark-poll/blob/develop/screenshots/dashboard-new-user.png?raw=true) 
 
-![Create Poll](https://github.com/abohannon/spark-poll/blob/develop/screenshots/create-poll-form.png?raw=true) 
 
-![Dashboard - With Polls](https://github.com/abohannon/spark-poll/blob/develop/screenshots/dashboard-w-polls.png?raw=true) 
-
-![Public Poll](https://github.com/abohannon/spark-poll/blob/develop/screenshots/poll-public.png?raw=true) 
-
-![Poll Results](https://github.com/abohannon/spark-poll/blob/develop/screenshots/poll-results2.png?raw=true) 
-
-![Landing Page - Poll Results](https://github.com/abohannon/spark-poll/blob/develop/screenshots/landing-page-latest-polls.png?raw=true)
-
-More screenshots here: https://www.behance.net/gallery/62845267/Spark-Poll-ReactRedux-App
 
 
 ## Future Considerations and Open Thoughts
@@ -132,15 +120,6 @@ need to be refactored.
 If you find this project helpful as a starting point for your own project, please feel free to clone. If you are interested in submitting improvements, PRs are welcome!
 
 
-## Links
 
-- Repository: https://github.com/abohannon/spark-poll
-- Issue tracker: https://github.com/abohannon/spark-poll/issues
-  - In case of sensitive bugs like security vulnerabilities, please contact
-    abo46n2@gmail.com directly instead of using issue tracker. We value your effort
-    to improve the security and privacy of this project!
-    
 
-## Licensing
 
-The code in this project is licensed under MIT license.
